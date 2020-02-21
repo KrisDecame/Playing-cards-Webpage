@@ -1,0 +1,17 @@
+@mixin visible {
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+}
+
+@mixin invisible {
+    opacity: 0;
+    visibility: hidden;
+}
+
+@mixin flex($flexDirection, $justifyContent, $alignItems) {
+    display: flex;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+    flex-direction: $flexDirection;
+}

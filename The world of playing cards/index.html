@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The world of playing cards</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baumans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="background-div">
+            <div class="background-layer">
+                <div class="page-title">
+                    <p>finish</p>
+                    <p>with</p>
+                    <p>style</p>
+                </div>
+            </div>
+        </div>
+        <nav class="nav-bar">
+            <div class="nav-bar__menu">
+                <div class="nav-bar__menu-icon">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                </div>
+                <ul class="nav-bar-list">
+                   <li><a href="#home">Home</a></li>
+                   <li><a href="#infoDiv">About</a></li>
+                   <li><a href="#services">Services</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <img class="logo" src="/data/pictures/card-logo.png" alt="">
+        </nav>
+    </div>
+    <section class="order-section" id="infoDiv">
+        <div class="order-section__info-div">
+            <div class="order-section__info">
+                <p>The best playing cards ever made</p>
+                <p>and they are ready right from the box.</p>
+                <a class="button" href="/store/store.html">order now</a>
+            </div>
+        </div>
+        <picture class="order-section__picture">
+            <source media="(max-width: 800px)" srcset="/data/pictures/aces-1.png">
+            <img class="order-section__main-picture" src="data/pictures/ace-spades.png" alt="">
+        </picture>
+    </section>
+
+    <script type="module">
+        import { main } from "/js/main.js";
+        main();
+    </script>
+</body>
+</html>
